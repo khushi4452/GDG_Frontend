@@ -1,0 +1,148 @@
+
+.app {
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+    padding: 20px; 
+}
+
+
+.header {
+    margin-bottom: 30px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 30px; 
+}
+
+
+.header h1 {
+    margin: 0; 
+    font-size: 70px; 
+    text-align: center; 
+    padding: 0 20px; 
+    color: #4285F4; 
+}
+
+
+.header h2 {
+    margin-top: 1px;
+    margin-bottom: 10px; 
+    font-size: 30px; 
+}
+
+.join-button {
+    background-color: #4285F4; 
+    color: white; 
+    padding: 20px 30px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 40px;
+    font-size: 20px; 
+    transition: background 0.4s ease-in-out; /* Transition for background color */
+}
+
+
+.join-button:hover {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed); /* Gradient effect on hover */
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75); /* Shadow on hover */
+}
+
+
+.arrow-down {
+    font-size: 30px; 
+    margin-top: 20px; 
+}
+
+
+.header-image {
+    height: 210px; 
+    width: auto; 
+    margin-top: 20px;
+}
+
+
+.header p {
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 10px; 
+    margin: 0px;
+}
+
+.arrowss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+
+.google-blue {
+    color: #4285F4;
+}
+
+
+.developer-red {
+    color: red; 
+}
+
+.developer-green {
+    color: green; 
+}
+.rbu-yellow {
+    color: #ffff33;
+}
+
+
+@media screen and (max-width: 768px) {
+      .header h1 {
+        font-size: 40px; 
+    }
+
+
+
+    .header h2 {
+        font-size: 24px; 
+    }
+
+   
+    .join-button {
+        padding: 15px 20px; 
+        font-size: 18px;
+        margin-top: 20px; 
+    }
+
+ 
+    .header p {
+        font-size: 16px; 
+    }
+
+
+    .arrow-down {
+        font-size: 24px;
+    }
+
+    
+    .header-image {
+        height: 150px; 
+    }
+
+ 
+    .arrowss {
+        margin-top: 20px; 
+    }
+}

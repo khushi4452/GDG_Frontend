@@ -1,0 +1,49 @@
+.page2{
+    
+    height:100vh;
+    scroll-snap-align: center;
+}
+
+.page1{
+
+    height:100vh;
+    scroll-snap-align: center;
+}
+
+.hero{
+
+    height:100vh;
+    scroll-snap-align: center;
+}
+.heroic{
+
+    height:100vh;
+    scroll-snap-align: center;
+}
+
+@media screen and (max-width:1150px) {
+    .page2{
+        height:160vh;
+        width:100%;
+        scroll-snap-align: none;
+    }
+
+    .page1{
+  
+        height:140vh;
+        width:100%;
+        scroll-snap-align: none;
+    }
+    .hero{
+       
+        height:100vh;
+        width:100%;
+        scroll-snap-align: none;
+    }
+    .heroic{
+
+    height:50vh;
+    scroll-snap-align: none;
+}
+
+}

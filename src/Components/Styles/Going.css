@@ -1,0 +1,121 @@
+.Going4-head {
+    display: flex;
+    justify-content: center; 
+    height: auto; 
+    padding: 20px 0; 
+}
+
+.Going4-subhead {
+    margin-top: 2vh;
+    color: var(--text); 
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: -1.1px;
+    text-align: center;
+}
+
+.Going4-hr {
+    width: 13%;
+    height: 6px;
+    border: none;
+    background-color: #b1e517;
+    margin: 20px auto;
+}
+
+.going {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    margin: 20px 0; 
+}
+
+.going img {
+    margin-top: 5vh; 
+    margin-left: 5vw; 
+    width: 40vw; 
+    max-width: 400px; 
+    height: auto; 
+}
+
+.going-text {
+    margin-top: 5vh; 
+    padding: 15px;
+    width: 45vw;
+    margin-right: 5vw; 
+    color: var(--text); 
+    text-align: right; 
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px; 
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: -0.66px;
+    border-right: 14px solid #b1e517;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .Going4-head { 
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .Going4-subhead {
+        margin-top: 5vh;
+        font-size: 45px; 
+    }
+
+    .Going4-hr {
+        width: 80%; 
+        height: 6px;
+        background-color: #b1e517;
+        margin: 20px auto; 
+    }
+
+    .going {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 0 5vw;
+    }
+
+    .going img {
+        margin-top: 5vh; 
+        width: 90vw; 
+        max-width: 300px; 
+    }
+
+    .going-text {
+        margin-top: 3vh; 
+        padding: 15px;
+        width: 90vw; 
+        text-align: center; 
+        font-size: 20px;
+        border-right: none; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Going4-subhead { 
+        margin-top: 4vh; 
+    }
+
+    .Going4-hr {
+        height: 4px; 
+    }
+
+    .going img { 
+        margin-top: 3vh;
+        width: 90vw; 
+        max-width: 400px; 
+    }
+
+    .going-text {
+        font-size: 18px;
+        padding: 10px; 
+        text-align: center; 
+    }
+}

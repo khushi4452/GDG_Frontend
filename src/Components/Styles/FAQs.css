@@ -1,0 +1,131 @@
+
+
+.faq-container {
+    margin-top: 0rem; 
+    text-align: center; 
+    width: 50%; 
+    max-width: 1000px;  
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.faq-title {
+    font-size: 2rem; 
+    font-weight: 0; 
+    color: #09e539; 
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.faq-question {
+    display: flex;
+    align-items: center; 
+    border: 9px solid #E2E8F0; 
+    border-radius: 9999px; 
+    padding: 0.75rem;
+    margin: 0 auto; 
+    width: 90%; 
+    max-width: 800px; 
+    cursor: pointer; 
+    margin-bottom: 0.5rem; 
+    font-size: small;
+    transition: background-color 0.3s ease; 
+}
+
+
+
+.faq-answer1,
+.faq-answer2,
+.faq-answer3,
+.faq-answer4,
+.faq-answer5 {
+    text-align: left; 
+    border-radius: 20px; 
+    max-width: 70%; 
+    margin: 0 auto; 
+    padding: 0.75rem; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 3rem; 
+}
+
+
+.faq-answer1 { border-left: 10px solid #f1090d; }
+.faq-answer2 { border-left: 10px solid #1984ef; }
+.faq-answer3 { border-left: 10px solid #c8f231; }
+.faq-answer4 { border-left: 10px solid #10dc39; }
+.faq-answer5 { border-left: 10px solid #d01515; }
+
+.faq-answer p {
+    border: 1px solid #E2E8F0; 
+    border-radius: 1rem; 
+    padding: 0.75rem; 
+    color: black; 
+}
+
+.faq-icon {
+    font-size: 3rem; 
+    margin-right: 1rem; 
+}
+
+.faq-email {
+    text-decoration: underline; 
+    color: blue; 
+}
+
+.faq-email:hover {
+    color: darkblue; 
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+   
+    .faq-container {
+        width: 90%; 
+    }
+
+    .faq-title {
+        font-size: 1.5rem; 
+    }
+
+    .faq-question {
+        width: 95%; 
+        font-size: medium; 
+    }
+
+    .faq-answer {
+        max-width: 80%; 
+        padding: 1rem; 
+    }
+
+    .faq-icon {
+        font-size: 2rem; 
+    }
+
+    .faq-email {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   
+    .faq-title {
+        font-size: 1.2rem; 
+    }
+
+    .faq-question {
+        font-size: small; 
+    }
+
+    .faq-answer {
+        max-width: 100%; 
+    }
+
+    .faq-email {
+        font-size: 20px; 
+    }
+}
