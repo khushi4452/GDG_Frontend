@@ -18,10 +18,13 @@ const Header = () => {
 </h2>
             
  <img src={object1} alt="Illustration related to Google Developers Group" className='header-image' />
- <p>Google Developer Groups are community groups for college</p>
- <p>and university students interested in Google developer</p>
-<p>technologies.</p>
-             
+
+ <div class="text-container">
+  <p class="text-item">Google Developer Groups are community groups for college</p>
+  <p class="text-item">and university students interested in Google developer</p>
+  <p class="text-item">technologies.</p>
+</div>
+        
  <button className='join-button btn-hover'>
  JOIN US
 </button>

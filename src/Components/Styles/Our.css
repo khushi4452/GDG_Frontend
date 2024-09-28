@@ -38,6 +38,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap; 
+  margin-top: 20px; 
 }
 
 .mission img {
@@ -61,38 +62,40 @@
   border-radius: 12px;
 }
 
+
 @media screen and (max-width: 768px) {
   .our2-head {
-    font-size: 32px; 
+      font-size: 32px; 
   }
-  
+
   .our2-subhead {
-    margin-top: 5vh;
-    font-size: 35px; 
+      margin-top: 5vh;
+      font-size: 35px; 
   }
 
   .our2-hr {
-    width: 156px; 
+      width: 156px; 
   }
 
   .mission {
-    flex-direction: column; 
-    align-items: center;
+      flex-direction: column; 
+      align-items: center;
+      margin-top: 20px; 
   }
 
   .mission img {
-    margin-top: 3vh;
-    width: 90%; 
-    max-width: 400px; 
+      margin-top: 3vh;
+      width: 90%; 
+      max-width: 400px; 
   }
 
   .mission-text {
-    color: var(--text); 
-    margin-top: 5vh;
-    width: 90%;
-    text-align: center; 
-    font-size: 20px; 
-    font-weight: 400; 
-    border-right: none; 
+      color: var(--text); 
+      margin-top: 10px; 
+      width: 90%;
+      text-align: center; 
+      font-size: 20px; 
+      font-weight: 400; 
+      border-right: none; 
   }
 }
