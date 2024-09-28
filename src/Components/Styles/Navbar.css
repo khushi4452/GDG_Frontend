@@ -136,6 +136,17 @@ body {
   color: red; 
 }
 
+.theme-toggle-mobile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 0;
+}
+
+.theme-toggle-mobile span {
+  margin-left: 5px; 
+}
+
 @media (max-width: 1024px) {
   .container {
     padding: 0 20px;
@@ -173,6 +184,14 @@ body {
 
   .linktext {
     font-size: 16px;
+  }
+
+
+  .theme-toggle-mobile {
+    position: absolute;
+    right: 20px; 
+    top: 60px; 
+    z-index: 101; 
   }
 }
 
