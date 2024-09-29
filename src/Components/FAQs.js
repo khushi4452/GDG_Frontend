@@ -68,11 +68,7 @@ const FAQs = () => {
         </div>
         {openFaq[5] && (
           <div className="faq-answer5">
-<<<<<<< HEAD
             <p>Mail us at <a href="mailto:gdg.rknec@gmail.com" className="faq-email">gdg.rknec@gmail.com</a></p>
-=======
-            <p>Mail us at <a href="mailto:dsc.rknec@gmail.com" className="faq-email">gdg.rknec@gmail.com</a></p>
->>>>>>> b8748f561dcec7fffd5d9dfd18d8ce106c9521aa
           </div>
         )}
         
