@@ -20,18 +20,18 @@ const FAQs = () => {
       
         <div className="faq-question" onClick={() => toggleFaq(1)}>
           <span className="faq-icon">&#8744;</span>
-          <h1>What is GDSC?</h1>
+          <h1>What is GDG?</h1>
         </div>
         {openFaq[1] && (
           <div className="faq-answer1">
-            <p>Google Developer Student Clubs (GDSC) are community groups for college and university students interested in Google developer technologies...</p>
+            <p>Google Developer groups(GDG) community for college and university students interested in Google developer technologies...</p>
           </div>
         )}
 
         
         <div className="faq-question" onClick={() => toggleFaq(2)}>
           <span className="faq-icon">&#8744;</span>
-          <h1>How can you become a part of GDSC?</h1>
+          <h1>How can you become a Part of GDG?</h1>
         </div>
         {openFaq[2] && (
           <div className="faq-answer2">
@@ -42,11 +42,11 @@ const FAQs = () => {
        
         <div className="faq-question" onClick={() => toggleFaq(3)}>
           <span className="faq-icon">&#8744;</span>
-          <h1>What does a GDSC Lead do?</h1>
+          <h1>What Does a GDG Leads do?</h1>
         </div>
         {openFaq[3] && (
           <div className="faq-answer3">
-            <p>A GDSC Lead fills a lot of shoes. He works with the university to build the club...</p>
+            <p>A GDG Leads fills a lot of shoes. He works with the university to build the club...</p>
           </div>
         )}
 
@@ -57,7 +57,7 @@ const FAQs = () => {
         </div>
         {openFaq[4] && (
           <div className="faq-answer4">
-            <p>A GDSC Lead fills a lot of shoes. He works with the university to build the club...</p>
+            <p>A  GDG Leads fills a lot of shoes. He works with the university to build the club...</p>
           </div>
         )}
 
@@ -68,7 +68,7 @@ const FAQs = () => {
         </div>
         {openFaq[5] && (
           <div className="faq-answer5">
-            <p>Mail us at <a href="mailto:dsc.rknec@gmail.com" className="faq-email">dsc.rknec@gmail.com</a></p>
+            <p>Mail us at <a href="mailto:gdg.rknec@gmail.com" className="faq-email">gdg.rknec@gmail.com</a></p>
           </div>
         )}
         

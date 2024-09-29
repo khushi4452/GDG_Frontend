@@ -11,7 +11,7 @@ const Header = () => {
  <h1 className='google'>
  <span className='google-blue'>Google</span> 
  <span className='developer-red'> Developer </span>
- <span className='developer-green'> Group</span>
+ <span className='developer-green'> Groups</span>
  </h1>
 <h2 className='rbu'>
  <span className='rbu-yellow'>RBU Chapter</span>

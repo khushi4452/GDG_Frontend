@@ -21,7 +21,7 @@
     width: 13%;
     height: 6px;
     border: none;
-    background-color: #b1e517;
+    background-color: #ffff33;
     margin: 20px auto;
 }
 
@@ -54,7 +54,7 @@
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: -0.66px;
-    border-right: 14px solid #b1e517;
+    border-right: 14px solid #ffff33;
     border-radius: 12px;
 }
 
@@ -71,7 +71,7 @@
     .Going4-hr {
         width: 80%; 
         height: 6px;
-        background-color: #b1e517;
+        background-color: #ffff33;
         margin: 20px auto; 
     }
 
